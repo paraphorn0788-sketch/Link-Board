@@ -1,5 +1,5 @@
 {
-  "theme": "light",
+  "theme": "forest",
   "cards": [
     {
       "name": "HD มกราคม Google Sheet",
@@ -42,8 +42,32 @@
       "fgcolor": null
     },
     {
-      "name": "HD มิถุนายน Google Sheet",
-      "url": "https://docs.google.com/spreadsheets/d/1xCxoVaat8VvxI2NSE1vtKqpwya597Gw1AktxglGTSsM/edit?usp=sharing",
+      "name": "HD มิถุนายน 69 Google Sheet",
+      "url": "https://docs.google.com/spreadsheets/d/1xCxoVaat8VvxI2NSE1vtKqpwya597Gw1AktxglGTSsM/edit?gid=331887558#gid=331887558",
+      "emoji": "📝",
+      "image": null,
+      "bgcolor": null,
+      "fgcolor": null
+    },
+    {
+      "name": "HD กรกฎาคม 69 Google Sheet",
+      "url": "https://docs.google.com/spreadsheets/d/15Lc-lj6Mh98r9a5B9YmxZzOtPxf7hgA2-jQ37Uu62K8/edit?usp=sharing",
+      "emoji": "📝",
+      "image": null,
+      "bgcolor": null,
+      "fgcolor": null
+    },
+    {
+      "name": "HD สิงหาคม 69 Google Sheet",
+      "url": "https://docs.google.com/spreadsheets/d/1Cu5MbAzsfzuXc6r5t5MzUR1sJGem4sLO465QjK-srws/edit?usp=sharing",
+      "emoji": "📝",
+      "image": null,
+      "bgcolor": null,
+      "fgcolor": null
+    },
+    {
+      "name": "HD กันยายน 69 Google Sheet",
+      "url": "https://docs.google.com/spreadsheets/d/1N27Q9jiG2l35wKKhW2_bX0bCK1SpV76yiQoQ_IREEAM/edit?usp=sharing",
       "emoji": "📝",
       "image": null,
       "bgcolor": null,
