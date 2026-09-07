@@ -93,7 +93,6 @@
   .theme-option.active .theme-check { opacity: 1; }
   .swatch { width: 16px; height: 16px; border-radius: 50%; border: 1.5px solid rgba(0,0,0,0.12); flex-shrink: 0; }
 
-  /* grid & cards */
   .grid {
     display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
     gap: 10px; max-width: 860px; margin: 0 auto;
@@ -126,7 +125,6 @@
     word-break: break-word; line-height: 1.3; max-width: 100%;
   }
 
-  /* three-dot menu */
   .card-menu-wrap { position: absolute; top: 6px; right: 6px; display: none; }
   .card:hover .card-menu-wrap { display: block; }
 
@@ -166,7 +164,6 @@
     color: var(--text-muted); font-size: 14px; max-width: 860px; margin: 0 auto;
   }
 
-  /* modal */
   .modal-bg {
     position: fixed; inset: 0; background: rgba(0,0,0,0.4);
     display: flex; align-items: center; justify-content: center; z-index: 100;
@@ -279,10 +276,10 @@
       <div class="theme-popover hidden" id="theme-popover"></div>
     </div>
     <button class="io-btn" title="Export JSON" onclick="exportJSON()">
-      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
     </button>
     <button class="io-btn" title="Import JSON" onclick="document.getElementById('import-input').click()">
-      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
     </button>
     <input type="file" id="import-input" accept=".json" style="display:none" onchange="importJSON(event)">
     <button class="add-btn" onclick="openModal()">
@@ -342,7 +339,6 @@
   </div>
 </div>
 
-<!-- confirm: unsaved changes -->
 <div class="confirm-bg hidden" id="confirm-discard">
   <div class="confirm-box">
     <div class="confirm-title">Discard changes?</div>
@@ -354,7 +350,6 @@
   </div>
 </div>
 
-<!-- confirm: load default -->
 <div class="confirm-bg hidden" id="confirm-default">
   <div class="confirm-box">
     <div class="confirm-title">Load default links?</div>
@@ -561,7 +556,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const modalBg = document.getElementById('modal');
 
-  /* track where mousedown started — only close if both mousedown AND mouseup land on the backdrop */
   modalBg.addEventListener('mousedown', e => {
     backdropMousedownOnBg = e.target === modalBg;
   });
